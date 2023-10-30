@@ -1,21 +1,25 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter } from 'react-router-dom';
-
 import { Provider } from 'react-redux';
+import { ThemeProvider } from 'styled-components';
+
 import App from './App';
 import "normalize.css"
 import "./assets/css/index.less"
 import store from './store';
+import theme from './assets/theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // < React.StrictMode >
   < Suspense fallback="loading" >
     <Provider store={store}>
-      < HashRouter >
-        <App />
-      </HashRouter >
+      <ThemeProvider theme={theme}>
+        < HashRouter >
+          <App />
+        </HashRouter >
+      </ThemeProvider>
     </Provider>
   </Suspense >
   // </React.StrictMode >
@@ -37,6 +41,10 @@ root.render(
       子组件可以通过connect方法获取store对象中的数据
       也可以通过dispatch方法修改store对象中的数据
 
-  4. HashRouter 哈希路由
+  4. ThemeProvider 主题管理
+      通过ThemeProvider对象将theme对象传递给子组件
+      子组件可以通过props.theme获取theme对象中的数据
+
+  5. HashRouter 哈希路由
      哈希模式管理路由状态
 */

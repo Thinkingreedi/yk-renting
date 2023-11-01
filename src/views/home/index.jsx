@@ -5,7 +5,7 @@ import { HomeWrapper } from './style'
 import { fetchHomeDataAction } from '@/store/modules/home'
 import HomeBanner from './c-cpns/home-banner'
 import SectionHeader from '@/components/section-header'
-import RoomItem from '@/components/room-item'
+import SectionRooms from '@/components/section-rooms'
 
 const Home = memo(() => {
   /** 从redux中获取数据 */
@@ -26,13 +26,7 @@ const Home = memo(() => {
         <div className='content'>
           <div className="good-price">
             <SectionHeader title={goodPriceInfo.title}></SectionHeader>
-            <ul className='room-list'>
-              {
-                goodPriceInfo.list?.slice(0, 8)?.map(item => {
-                  return <RoomItem itemData={item} key={item.id}></RoomItem>
-                })
-              }
-            </ul>
+            <SectionRooms roomList={goodPriceInfo.list}></SectionRooms>
           </div>
         </div>
       </HomeWrapper>

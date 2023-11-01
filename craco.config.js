@@ -3,29 +3,32 @@
   它可以修改 Webpack 配置、添加对 Less 和 Sass 的支持、支持 TypeScript、添加 ESLint 和 Prettier 等。
 */
 
-const path = require("path")
+const path = require('path')
 const CracoLessPlugin = require('craco-less');
 
-const resolve = dir => path.resolve(__dirname, dir)
+const resolve = pathname => path.resolve(__dirname, pathname)
 
 module.exports = {
+  // less
   plugins: [
     {
       plugin: CracoLessPlugin,
       options: {
         lessLoaderOptions: {
           lessOptions: {
-            modifyVars: { '@primary-color': '#1DA57A' },
+            modifyVars: {},
             javascriptEnabled: true,
           },
         },
       },
     },
   ],
+  // webpack
   webpack: {
     alias: {
       "@": resolve("src"),
       "components": resolve("src/components"),
+      "utils": resolve("src/utils"),
       // '@mui/styled-engine': '@mui/styled-engine-sc'
     }
   }

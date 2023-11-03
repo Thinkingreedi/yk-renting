@@ -6,6 +6,7 @@ export const RightWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  z-index: 99;
 
   color: ${props => props.theme.text.primaryColor};
   font-weight: 600;

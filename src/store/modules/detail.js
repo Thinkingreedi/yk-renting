@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit"
 const detailSlice = createSlice({
   name: "detail",
   initialState: {
+    // 初始化数据
     detailInfo: {
       "_id": "63043046432f9033d45410dc",
       "id": "49165669",

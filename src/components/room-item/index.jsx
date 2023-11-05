@@ -26,7 +26,7 @@ const RoomItem = memo((props) => {
         if (newIndex > length - 1) newIndex = 0
         setSelectIndex(newIndex)
 
-        // 阻止事件冒泡
+        // 阻止事件冒泡，防止点击直接进入详情页面
         event.stopPropagation()
     }
 
@@ -34,13 +34,14 @@ const RoomItem = memo((props) => {
         if (itemClick) itemClick(itemData)
     }
 
-    /** 子元素的赋值 */
+    /** 普通图片 */
     const pictureElement = (
         <div className='cover'>
             <img src={itemData.picture_url} alt="" />
         </div>
     )
 
+    /** 轮播图 */
     const sliderElement = (
         <div className='slider'>
             {/* 左右按钮 */}

@@ -12,10 +12,12 @@ const App = memo(() => {
   return (
     <div className='app'>
       <AppHeader />
-      {/* useRoutes是react-router-dom提供的一个路由钩子，用于匹配路由 */}
-      <div className='page'>
-        {useRoutes(routes)}
-      </div>
+      < Suspense fallback="loading" >
+        {/* useRoutes是react-router-dom提供的一个路由钩子，用于匹配路由 */}
+        <div className='page'>
+          {useRoutes(routes)}
+        </div>
+      </Suspense>
       <AppFooter />
     </div>
   )

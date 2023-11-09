@@ -45,20 +45,20 @@
 
 * **首页-大图展示：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/5861938ea3664a94be59363e74f97cc9.png)
+![](https://img-blog.csdnimg.cn/c6c5f9a13cdb471fa6e5065c1cd64a0b.png)
 
 * **首页-内容展示：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/739a3b6cd630401da0920b6308c6d152.png)
+![](https://img-blog.csdnimg.cn/8e28eba316e048689dd180c5d88954a4.png)
 
 * **详情-更多内容：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/d4c9a22a18b94d18a9d572aef52b664e.png)
+![](https://img-blog.csdnimg.cn/6984ab11cce34826af9506fc8d743f9c.png)
 
 * **详情-五图展示：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/2acaa26c4a80499888bf6a36b9a4ea8b.png)
+![](https://img-blog.csdnimg.cn/a46105454db047f48545f5d73377005e.png)
 
 * **详情-图片查看：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/0efc54ff17b44997b155858805638b30.png)
+![](https://img-blog.csdnimg.cn/b8149934c5e5407b83ddf991156aefbc.png)

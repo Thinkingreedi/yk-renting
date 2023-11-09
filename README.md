@@ -45,20 +45,20 @@
 
 * **首页-大图展示：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/01.png)
+![](../yk-renting/README.assets/01.png)
 
 * **首页-内容展示：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/02.png)
+![](../yk-renting/README.assets/02.png)
 
 * **详情-更多内容：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/03.png)
+![](../yk-renting/README.assets/03.png)
 
 * **详情-五图展示：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/04.png)
+![](../yk-renting/README.assets/04.png)
 
 * **详情-图片查看：**
 
-![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/05.png)
+![](../yk-renting/README.assets/05.png)

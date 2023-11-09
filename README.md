@@ -45,20 +45,20 @@
 
 * **首页-大图展示：**
 
-![](../yk-renting/README.assets/01.png)
+![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/5861938ea3664a94be59363e74f97cc9.png)
 
 * **首页-内容展示：**
 
-![](../yk-renting/README.assets/02.png)
+![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/739a3b6cd630401da0920b6308c6d152.png)
 
 * **详情-更多内容：**
 
-![](../yk-renting/README.assets/03.png)
+![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/d4c9a22a18b94d18a9d572aef52b664e.png)
 
 * **详情-五图展示：**
 
-![](../yk-renting/README.assets/04.png)
+![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/2acaa26c4a80499888bf6a36b9a4ea8b.png)
 
 * **详情-图片查看：**
 
-![](../yk-renting/README.assets/05.png)
+![](C:/Users/A-SHIYI/Desktop/Demo/yk-renting/README.assets/0efc54ff17b44997b155858805638b30.png)

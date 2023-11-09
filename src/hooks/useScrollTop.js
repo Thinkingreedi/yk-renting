@@ -1,3 +1,4 @@
+// 路由切换时，自动滚动到顶部
 import { useEffect } from "react"
 import { useLocation } from "react-router-dom"
 

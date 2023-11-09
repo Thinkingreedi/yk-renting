@@ -1,3 +1,4 @@
+// 主题样式，定义theme对象，包含color、text、mixin等属性
 const theme = {
   color: {
     primaryColor: "#ff385c",
